@@ -33,6 +33,13 @@ if(!empty($_POST['latitude']) && !empty($_POST['longitude'])){
     }
 
     // output the location to the user 
-    echo $location;
+    $lat = trim($_POST['latitude']);
+    $long = trim($_POST['longitude']); 
+
+    //echo "lat: " . $lat . " long: " .$long ;
+
+    echo $location; 
+    echo "<br> 
+     <a href='http://maps.google.com/maps?q='.$lat.','.l$ong' target='_blank'>  view on map </a>";  
 }
 ?>
