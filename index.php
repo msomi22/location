@@ -7,6 +7,9 @@ not unless with permission from AlanDick & Co East Africa.
 Author <p> mwendapeter72@gmail.com </p> Peter Mwenda.
 
 -->
+
+
+
 <html lang="en-US">
 <head>
 <title> AlanDick & Co </title>
@@ -118,8 +121,6 @@ function showLocation(position) {
 
 <div class="content">
 	<p><span class="label">Your Location:</span> <span id="location"></span></p>
-
-	<!-- <p> <a href="http://maps.google.co.uk/maps?q=51.917168,-0.227051" target="_blank"> view on map </a> </p> -->
 
 	<div class="footer">
  	   <p> AlanDick & Co East Africa </p>

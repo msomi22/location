@@ -1,0 +1,15 @@
+ 
+    su
+  
+    su – postgres
+
+    psql template1
+
+    CREATE USER location WITH PASSWORD 'location12345';
+    ALTER ROLE location WITH CREATEDB;
+    CREATE DATABASE  locationdb;
+    GRANT ALL PRIVILEGES ON DATABASE  locationdb to  location;
+    ALTER DATABASE locationdb OWNER to location;
+
+  
+
